@@ -1,0 +1,25 @@
+.containerSocialMedia{
+    /* background-color: burlywood; */
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+i{
+    font-size: 50px;
+}
+
+.red{
+    color: #e9205c;
+  /* color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+  
+}
+.blue{
+    color: #3b5998;
+}
+.grey{
+    color: #333;
+}
+.white{
+    color: white;
+}

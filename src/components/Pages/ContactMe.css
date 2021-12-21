@@ -1,0 +1,6 @@
+.container-contact{
+    display: grid;
+    /* background-color: rgb(211, 140, 34); */
+   min-height: 100vh;
+   grid-template-rows: auto 1fr auto;
+}

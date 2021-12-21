@@ -1,0 +1,12 @@
+.mySocialMedias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    /* background-color: cadetblue; */
+    
+}
+
+.mySocialMedias>h2{
+    font-weight: bold;
+}

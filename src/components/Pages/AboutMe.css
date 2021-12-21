@@ -1,0 +1,6 @@
+.container-aboutme{
+    display: grid;
+    /* background-color: rgb(241, 63, 232); */
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}

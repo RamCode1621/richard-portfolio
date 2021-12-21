@@ -1,0 +1,28 @@
+.icon{
+    font-size: 2rem;
+    margin: 0 5px;
+}
+
+.html-icon-color{
+    color: #ff3300;
+}
+
+.css-icon-color{
+    color: #0066ff;
+}
+
+.react-icon-color{
+    color: #00ccff;
+}
+
+.js-icon-color{
+    color: #e6e600;
+}
+
+.node-icon-color{
+    color: #33cc33;
+}
+
+.docker-icon-color{
+    color: #0000ff;
+}
