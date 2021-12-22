@@ -39,8 +39,8 @@ const Proyects = () => {
             >
             {
                 projects.map(item=>(
-                    <div className="projectsList__item grid-item" key={item.id}>
-                        <Link to={`/project/${item.name}`} > 
+                    <div className="projectsList__item grid-item" key={item._id}>
+                        <Link  to={`/project/${item.name}`} > 
                             <img src={item.images}  alt={item.description}/>
                         </Link>
                     </div>
