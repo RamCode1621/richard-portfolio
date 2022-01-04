@@ -28,6 +28,7 @@ function Menu() {
                     <Link to="/contact-me" className="header__menu__container--link" title="Contact">
                     Contact me
                     </Link>
+
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import List from '../ListSocialMedias/List'
 import Menu from '../NavMenu/Menu'
 
@@ -9,7 +9,7 @@ function ContactMe() {
         <div className='container-contact'>
             <Menu/>
             <List/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

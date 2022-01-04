@@ -1,3 +1,10 @@
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-p{
     /* background-color: chartreuse; */
     text-align: center;

@@ -2,13 +2,15 @@
 font-family: 'Estonia', cursive;
 font-family: 'Itim', cursive;
 font-family: 'Pacifico', cursive;
-font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto Mono', monospace; 
+font-family: 'Fira Code', monospace;
+*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace; 
+    font-family: 'Fira Code', monospace;
     font-size: 1rem;
 }
 

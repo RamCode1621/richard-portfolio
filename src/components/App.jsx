@@ -5,6 +5,7 @@ import AboutMe from './Pages/AboutMe'
 import ContactMe from './Pages/ContactMe'
 import ProjectDetails from './Pages/ProjectDetails'
 import './globalStyles.css'
+import Footer from './Footer/Footer'
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="contact-me" element={<ContactMe/>}/>
                 <Route path="/project/:id" element={<ProjectDetails/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
     )
 }

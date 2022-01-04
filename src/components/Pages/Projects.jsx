@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import Menu from '../NavMenu/Menu'
 import ProjectsList from '../Projects/ProjectsList'
 import Title from '../Title/Title'
@@ -14,7 +14,7 @@ function Projects() {
             <div className='projects-page-container'> 
                 <ProjectsList/>   
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </>
     )
 }

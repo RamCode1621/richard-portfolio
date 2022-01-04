@@ -1,5 +1,5 @@
 
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import Info from '../MyInfo/Info'
 import Menu from '../NavMenu/Menu'
 
@@ -10,7 +10,7 @@ function AboutMe() {
         <div className='container-aboutme'> 
             <Menu/>
             <Info/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

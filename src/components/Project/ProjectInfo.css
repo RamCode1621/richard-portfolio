@@ -1,5 +1,5 @@
 .details-project{
-    /* background-color: rgb(206, 97, 8); */
+    /* background-color: #ce6108; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,8 @@
 }
 
 .image-project{
-   width:300px;
+    min-width: 300px;
+   width:70%;
    margin: 20px 0;
 }
 
@@ -26,7 +27,23 @@
     display: block;
     width: 100%;
     margin: 20px 0;
-    text-align: justify;
+    text-align: left;
     max-width: 700px;
 }
 
+.links-project{
+    /* background-color: darkgrey; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.links-project>span{
+    font-weight: bold;
+}
+.links-project>span>a{
+    color: rgb(251, 255, 0);
+}
+
+.description-project>span{
+    font-weight: bold;
+}

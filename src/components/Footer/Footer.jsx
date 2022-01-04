@@ -1,12 +1,13 @@
 import React from 'react'
-
+import CountViews from '../CountViews/CountViews'
 import './Footer.css'
+
 
 function Footer() {
     return (
-        <p className='footer-p'>
-             © 2021 Richard Aguilar - BatCode
-        </p>
+            <div className="footer-container">
+                <p className='footer-p'>© 2022 Richard Aguilar - BatCode </p><CountViews/>
+            </div>
     )
 }
 
