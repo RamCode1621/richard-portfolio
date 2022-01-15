@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
-import { useEffect } from 'react'
+import React, { useState,useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import Masonry from 'react-masonry-css'
-
-// import {host} from '../../variableGlobals'
 
 import './Projects.css'
 
@@ -16,7 +13,7 @@ const Proyects = () => {
         setProjects(myJson)
     }
 
-    useEffect(async() => {
+    useEffect(() => {
         getData()
     }, [])
  

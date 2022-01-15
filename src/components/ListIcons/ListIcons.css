@@ -1,0 +1,10 @@
+ul{
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+}
+
+ul>li{
+    margin: 0 5px;
+    /* background-color: chartreuse; */
+    display: inline;
+}

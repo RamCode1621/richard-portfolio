@@ -1,12 +1,17 @@
 .mySocialMedias{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: flex-start;
+    /* align-items: stretch; */
     /* background-color: cadetblue; */
     
 }
 
 .mySocialMedias>h2{
     font-weight: bold;
+}
+
+.mySocialMedias>ol>li{
+    text-decoration: none;
+    display: inline;
 }

@@ -17,16 +17,29 @@ function Menu() {
                         <i className="fas fa-bars header__iconMenu btn-icon2"></i>
                     </label>
                 
+                    
                     <Link to="/" className="header__menu__container--link" title="Projects">
-                    Projects 
+                        <div className="header__menu__container--ContentLink">
+                            Projects 
+                        </div>    
                     </Link>
-                
+
                     <Link to="/about-me" className="header__menu__container--link" title="About me">
-                    About me
+                        <div className="header__menu__container--ContentLink">
+                            About me
+                        </div>
                     </Link>
 
                     <Link to="/contact-me" className="header__menu__container--link" title="Contact">
-                    Contact me
+                        <div className="header__menu__container--ContentLink">
+                            Contact me
+                        </div>
+                    </Link>
+                    
+                    <Link to="/blog" className="header__menu__container--link" title="Contact">
+                        <div className="header__menu__container--ContentLink">
+                            My blog
+                        </div>
                     </Link>
 
                 </div>

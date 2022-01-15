@@ -9,15 +9,16 @@ function ProjectInfo() {
 
     const [project,setProject]=useState({technologies: [],links:[]})
 
-    const getData=async()=>{
-        const data=await fetch(`https://richard-portfolio-api.herokuapp.com/project/${id}`)
-        const myProject=await data.json()
-        setProject(myProject)
-    }
-
-    useEffect(() => { 
+    useEffect(() => {
+        const getData=async()=>{
+            const data=await fetch(`https://richard-portfolio-api.herokuapp.com/project/${id}`)
+            const myProject=await data.json()
+            setProject(myProject)
+        }
+        
         getData() 
-    }, [])
+        // console.log("This is getting data")
+    }, [id])
 
     return (
         <div className='details-project'>

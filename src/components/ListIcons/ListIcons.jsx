@@ -1,15 +1,19 @@
 import React from 'react'
 import Icon from './Icon'
 
+import './ListIcons.css'
+
 function ListIcons({list}) {
     return(
-        <div>
+        <ul>
             {
                 list.map(item=>(
-                    <Icon key={item.name} item={item}/>
+                    <li>
+                         <Icon key={item.name} item={item}/>
+                    </li>
                 ))
             }
-        </div>
+        </ul>
     )
 
 }
