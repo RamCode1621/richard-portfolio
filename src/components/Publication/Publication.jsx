@@ -9,7 +9,7 @@ function Publication() {
         </div>
         <hr />
         <div className="Publication-body">
-            <img src="https://richard-portfolio-api.herokuapp.com/images/img9.png" alt="" />
+            <img src="https://richard-portfolio-api.herokuapp.com/images/info-webinar.jpeg" alt="" />
 
             <p>El pasado 6 de septiembre del 2021 se compartio con los estudienates del colegio Juan XXIII en la especialidad de sistemas informaticos un webinar introductorio por video conferencia online, esta actividad fue realizada con el objetivo en difundir informacion y motivar a los jovenes a estudiar alguna carrera relacionada con el desarrollo de software y desarrollo web.    
             </p>
